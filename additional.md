@@ -1,1 +1,1 @@
-**Bold**Hello World! The Sequel
+**Hello World! The Sequel**
