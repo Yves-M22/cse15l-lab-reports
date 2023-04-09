@@ -20,4 +20,6 @@ Once you've made it this far, type in ssh @ieng6.ucsd.edu, with your course spec
 
 *Part 3 - Running Commands*
 
+There are some commands that can be run once you connect to the remote computer. The image beloew uses two specific commands, ls -lat and ls -a, which list the files in the given paths. There are other specific commands you can also try to test such as cd ~, cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/, or cat /home/linux/ieng6/cs15lsp23/public/hello.txt.
+
 ![Example of some commands](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20160826.png)
