@@ -18,4 +18,4 @@ Once you've made it this far, type in ssh @ieng6.ucsd.edu, with your course spec
 
 ![Successful connection](/cse15l-lab-reports/images/Screenshot 2023-04-05 154830.png](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20154830.png))
 
-*Part 3 - 
+*Part 3 - Running Commands*
