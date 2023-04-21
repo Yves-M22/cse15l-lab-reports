@@ -5,7 +5,7 @@
 I didn't need to do this step since I already had VSCode installed from previous CSE courses, but for students who still need to install it, you [go here](https://code.visualstudio.com/)
 to install VSCode onto your computer with the correct and latest version. After installing it, you should be greeted to a page similar to this, minus the directory and terminal tabs.
 
-![Image of VSCode Running]([https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20152415.png](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images/Screenshot%202023-04-20%20225610.png))
+![Image of VSCode Running](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-20%20225610.png)
 
 *Part 2 - Remotely Connecting*
 
