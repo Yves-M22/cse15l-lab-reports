@@ -25,7 +25,12 @@ After copying your username, password, and installing Git if needed, head over t
 
 ![Git Bash & Terminal](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-08%20185625.png)
 
-    Once you've made it this far, type in ssh @ieng6.ucsd.edu, with your course specific username coming before the @ sign. Type yes when it asks you to continue to connecting. It only asks this if you've never tried before, but if this is your first time doing this and this does not pop up and ask for a password, your username was incorrect. Afterwards, put in your password into the terminal (Note: You will not be able to see what you're typing for security reasons). This is the screen you should see if you have successfully connected. 
+# @Test
+  public void testReverseInPlaceWithArrayLength2() {
+    int[] input1 = {1, 2};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 2, 1 }, input1);
+# } 
 
 ![Successful connection](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20154830.png)
 
