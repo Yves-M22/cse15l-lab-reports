@@ -4,7 +4,7 @@
 
 Using the code based off of Number Server from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
 
-![Image of StringServer Code](Screenshot 2023-04-24 230322.png)
+![Image of StringServer Code](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-24%20230322.png?raw=true)
 
 *Part 2 - Remotely Connecting*
 
