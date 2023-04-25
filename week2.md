@@ -27,10 +27,11 @@ After copying your username, password, and installing Git if needed, head over t
 
     @Test
     public void testReverseInPlaceWithArrayLength2() {
-    int[] input1 = {1, 2};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 2, 1 }, input1);
- } 
+        int[] input1 = {1, 2};
+        ArrayExamples.reverseInPlace(input1);
+        assertArrayEquals(new int[]{ 2, 1 }, input1);
+    }
+  
 
 ![Successful connection](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20154830.png)
 
