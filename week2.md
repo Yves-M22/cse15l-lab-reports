@@ -6,6 +6,8 @@ Using the code based off of Number Server from week 2, I created a simple altern
 
 ![Image of StringServer Code](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-24%20230322.png?raw=true) 
 
+
+
 ![Image of AddMessage-1](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-24%20230424.png?raw=true)   
 
 For this example of how add message is used, in the specific moment shown, handle request is called and skips the first if statement since there's more characters beyond the '/'. It goes through the method to add the inputted string since add-message comes after the '/', where the string is then returned and seen on the site. The method takes in any argument that is of type URI, and the following if statements check specific strings to determine what should be done. The value for the URI field would be a url, while the input for the if statements check strings. There's also a string named input for the method. Whenever /add-message is used, the value of String input is being changed by adding a new portion of a string and a new line chracter. In the image, "I love ECE 35" and a new line character is stored.   
@@ -14,6 +16,7 @@ For this example of how add message is used, in the specific moment shown, handl
 
 ![Image of AddMessage-2](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-24%20230457.png?raw=true)
 
+This example is similar to the last one with the only difference being the addition of another string into input. The same method is called as in the first example, and will go through the same lines of code to add this new string into the input. When /add-message is used, the value of String input is changed by adding "So much :D" to input, which sould already contain something from previously using /add-message. After this is called, input now contains "I love ECE 35" and "So much :D" with a new line character between them and after the second added message.
 
 *Part 2 - Remotely Connecting*
 
