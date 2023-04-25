@@ -26,7 +26,7 @@ After copying your username, password, and installing Git if needed, head over t
 ![Git Bash & Terminal](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-08%20185625.png)
 
     @Test
-  public void testReverseInPlaceWithArrayLength2() {
+    public void testReverseInPlaceWithArrayLength2() {
     int[] input1 = {1, 2};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 2, 1 }, input1);
