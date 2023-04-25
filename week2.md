@@ -1,11 +1,10 @@
-**Lab Report 1 - An Introduction To Remote Access and FileSystem**
+**Lab Report 2 - Servers & Bugs**
 
-*Part 1 - Installing VSCode*
+*Part 1 - String Server*
 
-I didn't need to do this step since I already had VSCode installed from previous CSE courses, but for students who still need to install it, you [go here](https://code.visualstudio.com/)
-to install VSCode onto your computer with the correct and latest version. After installing it, you should be greeted to a page similar to this, minus the directory and terminal tabs.
+Using the code based off of Number Server from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
 
-![Image of VSCode Running](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-20%20225610.png)
+![Image of StringServer Code](Screenshot 2023-04-24 230322.png)
 
 *Part 2 - Remotely Connecting*
 
