@@ -18,38 +18,28 @@ For this example of how add message is used, in the specific moment shown, handl
 
 This example is similar to the last one with the only difference being the addition of another string into input. The same method is called as in the first example, and will go through the same lines of code to add this new string into the input. When /add-message is used, the value of String input is changed by adding "So much :D" to input, which sould already contain something from previously using /add-message. After this is called, input now contains "I love ECE 35" and "So much :D" with a new line character between them and after the second added message.
 
-*Part 2 - Remotely Connecting*
+*Part 2 - Array Bugs*
 
-You will want to access your specific course account at [this website](https://sdacs.ucsd.edu/~icc/index.php) and reset your password (Note: This means you should reset the password for the course specific account, not your general UCSD email/account). You will also need to install [Git if you're on Windows](https://gitforwindows.org/).
-After copying your username, password, and installing Git if needed, head over to VSCode and create a new terminal with the toolbar at the top. Select the downward arrow on the righthand side and select Git Bash to change the terminal.
-
-![Git Bash & Terminal](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-08%20185625.png)
+Test that fails program
 
     @Test
-    public void testReverseInPlaceWithArrayLength2() {
-        int[] input1 = {1, 2};
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 2, 1 }, input1);
+    public void testReversedWithArrayLength3() {
+        int[] input1 = {3, 6, 9};
+        assertArrayEquals(new int[]{9, 6, 3}, ArrayExamples.reversed(input1));
     }
   
+Test that can pass the program
 
-![Successful connection](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20154830.png)
+    @Test
+    public void testReversed() {
+        int[] input1 = { };
+        assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    }
+    
 
-*Part 3 - Running Commands*
-
-There are some commands that can be run once you connect to the remote computer. The image below uses two specific commands
-
-* ls -lat
-* ls -a
-
-Both of which utilize the list command to list out the files and folders of the given path. In this case they show all the files in the specific path of the remote computer, as seen in the terminal of the image below. But there are other specific commands you can also try to test.
-
-* cd ~
-* cd
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
-
-The following commands have different actions. The first two change the directory to a given path, but since the first has a ~ symbol and the second is blank, they should change the directory to the home directory. The cp command creates a copy of a specified file, the one above can be used on the remote computer to copy hello.txt. Cat prints the contents of one or more given files, so the command above would print out whatever is written inside hello.txt.
+These are two JUnit tests that tests whether the Reversed method works properly with different inputs, which are arrays that are reversed and returned. 
 
 
-![Example of some commands](https://raw.githubusercontent.com/Yves-M22/cse15l-lab-reports/main/images/Screenshot%202023-04-05%20160826.png)
+*Part 3 - Reflection on Lab*
+
+I've already done a lot of debugging and testing in CSE 12 last quarter, and that wasn't my favorite thing to do, so learning that in lab wasn't very intuitive, but learning more about how servers work in week 2 and using the remote computers in tangent with that was new to me. Integrating and making code that made some changes to a site felt more impactful and different from what I've coded in the past. I aslo enjoyed learning more about GitHub the last two weeks since I;m sure these are useful skills to have and I feel as if I've developed a better understanding of GitHub pages and the desktop interface for it. 
