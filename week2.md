@@ -1,6 +1,6 @@
- **Lab Report 2 - Servers & Bugs**
+# **Lab Report 2 - Servers & Bugs**
 
-*Part 1 - String Server*
+##### *Part 1 - String Server*
 
 Using the code based off of ```NumberServer.java``` from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
 
@@ -18,7 +18,7 @@ For this example of how add message is used, in the specific moment shown, handl
 
 This example is similar to the last one with the only difference being the addition of another string into input. The same method is called as in the first example, and will go through the same lines of code to add this new string into the input. When /add-message is used, the value of String input is changed by adding "So much :D" to input, which sould already contain something from previously using /add-message. After this is called, input now contains "I love ECE 35" and "So much :D" with a new line character between them and after the second added message.
 
-*Part 2 - Array Bugs*
+##### *Part 2 - Array Bugs*
 
 Test that fails program
 
@@ -40,6 +40,6 @@ Test that can pass the program
 These are two JUnit tests that tests whether the Reversed method works properly with different inputs, which are arrays that are reversed and returned. 
 
 
-*Part 3 - Reflection on Lab*
+##### *Part 3 - Reflection on Lab*
 
 I've already done a lot of debugging and testing in CSE 12 last quarter, and that wasn't my favorite thing to do, so learning that in lab wasn't very intuitive, but learning more about how servers work in week 2 and using the remote computers in tangent with that was new to me. Integrating and making code that made some changes to a site felt more impactful and different from what I've coded in the past. I aslo enjoyed learning more about GitHub the last two weeks since I;m sure these are useful skills to have and I feel as if I've developed a better understanding of GitHub pages and the desktop interface for it. 
