@@ -1,4 +1,4 @@
-# **Lab Report 2 - Servers & Bugs**
+ **Lab Report 2 - Servers & Bugs**
 
 *Part 1 - String Server*
 
