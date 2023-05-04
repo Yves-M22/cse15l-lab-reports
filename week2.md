@@ -1,6 +1,6 @@
 # **Lab Report 2 - Servers & Bugs**
 
-##### *Part 1 - String Server*
+### *Part 1 - String Server*
 
 Using the code based off of ```NumberServer.java``` from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
 
@@ -18,7 +18,7 @@ For this example of how add message is used, in the specific moment shown, handl
 
 This example is similar to the last one with the only difference being the addition of another string into input. The same method is called as in the first example, and will go through the same lines of code to add this new string into the input. When /add-message is used, the value of String input is changed by adding "So much :D" to input, which sould already contain something from previously using /add-message. After this is called, input now contains "I love ECE 35" and "So much :D" with a new line character between them and after the second added message.
 
-##### *Part 2 - Array Bugs*
+### *Part 2 - Array Bugs*
 
 Test that fails program
 
