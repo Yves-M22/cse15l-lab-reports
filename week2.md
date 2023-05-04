@@ -61,7 +61,29 @@ There can be multiple reasons as to why these Junit tests are failing, and these
         return arr;
     }
 
-In the code shown above,
+In the code shown above, it has bugs that prevent it from passing, but after applying the fixes done in the code below, the code can now pass the Junit tests. In the reverseInPlace method, the expected array isn't being printed out and instead the final value is being replaced with the replaced first value, so the original virst value never ends up replacing it. The fix complicates the code a little more by creating an empty array that copies the array in reverse, followed by another for loop that copies the new array from scratch containing the original first value that would've been replaced and deleted. For reversed, the first value in the actual output is incorrect so there's a major error at the start where the new array is initiallized with nothing in it, but the array that will be returned simply copies an empty array, which explains why all the values are 0s. To fix this, you simple replace the order of what is being copied, so that newArray is the one copying rather than being copied.
+
+    // Changes the input array to be in reversed order
+    static void reverseInPlace(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+            newArray[arr.length - i - 1] = arr[i];
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = newArray[i];
+        }
+    }
+
+    // Returns a *new* array with all the elements of the input array in reversed
+    // order
+    static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+            newArray[arr.length - i - 1] = arr[i];
+        }
+        return newArray;
+    }
 
 
 
