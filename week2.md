@@ -37,7 +37,32 @@ Test that can pass the program
     }
     
 
-These are two JUnit tests that tests whether the Reversed method works properly with different inputs, which are arrays that are reversed and returned. 
+These are two JUnit tests that tests whether the Reversed method works properly with different inputs, which are arrays that are reversed and returned. Here are images that show the outcome from running these tests.
+
+![Image of FailTest](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-19%20153812.png?raw=true)
+
+![Image of SuccessTest](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-05-04%20002057.png?raw=true)
+
+There can be multiple reasons as to why these Junit tests are failing, and these reasons can be sought out by taking a look at the code. 
+
+    static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < arr.length; i += 1) {
+            arr[i] = arr[arr.length - i - 1];
+        }
+    }
+
+    // Returns a *new* array with all the elements of the input array in reversed
+    // order
+    static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+            arr[i] = newArray[arr.length - i - 1];
+        }
+        return arr;
+    }
+
+In the code shown above,
+
 
 
 ### *Part 3 - Reflection on Lab*
