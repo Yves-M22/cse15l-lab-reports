@@ -2,10 +2,7 @@
 
 *Part 1 - String Server*
 
-Using the code based off of 
-    
-    NumberServer.java 
-from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
+Using the code based off of ```NumberServer.java ``` from week 2, I created a simple alternate version that stores a string from input in the url and adds on to it. There's some code to show how it functions, as well as two screenshots of add-message implementation at work.
 
 ![Image of StringServer Code](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images2/Screenshot%202023-04-24%20230322.png?raw=true) 
 
