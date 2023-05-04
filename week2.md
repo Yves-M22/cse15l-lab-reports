@@ -40,6 +40,6 @@ Test that can pass the program
 These are two JUnit tests that tests whether the Reversed method works properly with different inputs, which are arrays that are reversed and returned. 
 
 
-##### *Part 3 - Reflection on Lab*
+### *Part 3 - Reflection on Lab*
 
 I've already done a lot of debugging and testing in CSE 12 last quarter, and that wasn't my favorite thing to do, so learning that in lab wasn't very intuitive, but learning more about how servers work in week 2 and using the remote computers in tangent with that was new to me. Integrating and making code that made some changes to a site felt more impactful and different from what I've coded in the past. I aslo enjoyed learning more about GitHub the last two weeks since I;m sure these are useful skills to have and I feel as if I've developed a better understanding of GitHub pages and the desktop interface for it. 
