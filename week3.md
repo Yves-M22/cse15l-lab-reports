@@ -1,12 +1,12 @@
 # **Lab Report 3 - Researching Commands**
 
-### The Grep Command
+## The Grep Command
 
-##### grep -i
+### grep -i
 
-##### grep -v
+### grep -v
 
-##### grep -e
+### grep -e
 
-##### grep -o
+### grep -o
 
