@@ -4,14 +4,33 @@
 
 ### grep -i
 
+##### Example 1
+
+        $ grep There -i biomed/1468-6708-3-7.txt
+        
+        [ 1 ] . Prior to this publication, there had been no
+        there has been a large body of literature dedicated to the
+          frequently prescribed for hypertension, but there are few
+          In this study of 14 hypertensive men, there was a
+          period. There was no weight change in that study, but two
+          Between 1966 and 2001, there were 188 published
+          There are no case control, cohort, or other studies that
+          occurrences in the chlorthalidone arm. Although there was
+          secondary outcome of total mortality, there were small
+        of hypertension, several questions remain. There is still a
+        
+##### Example 2
+            
+            $ grep Glow -i government/*/*
+            government/Media/GreensburgDailyNews.txt:Perhaps the most glowing comments on Bailey's philanthropy came
+            
 ### grep -v
 
 ##### Example 1
 
-$ grep  the -v 911report/preface.txt
 
-
-
+            $ grep  the -v 911report/preface.txt
+            
             PREFACE
                 Democrats chosen by elected leaders from our nation's capital at a time of great
                 avoid such tragedy again?
@@ -48,6 +67,59 @@ $ grep  the -v 911report/preface.txt
             Thomas H. Kean, chair
             Lee H. Hamilton, vice chair
 
+
+##### Example 2
+
+        $ grep a -v biomed/1468-6708-3-1.txt
+        
+        Introduction
+        elderly [ 9 ] .
+
+
+        
+          Study
+
+
+
+
+          ] .
+          (for persons who were never in excellent, very good, or
+          report results using only the simpler definition.
+          findings.
+
+
+
+
+
+
+
+        Results
+        likely.
+        from 25 to 29.9. The second column, which shows results
+        under 20.
+        groups.
+        YOL or YHL.
+
+
+        Discussion
+
+
+
+          YHL.
+
+
+
+
+
+        Conclusion
+        'overweight' by the NHLBI guidelines. This suggests using
+
+
+        Competing interests
+
+
+        CESD Center for Epidemiologic Studies Depression
+        poor?
 
 
 ### grep -e
