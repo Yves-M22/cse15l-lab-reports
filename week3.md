@@ -122,7 +122,71 @@
         poor?
 
 
-### grep -e
+### grep -l
 
-### grep -o
+##### Example 1
+        
+        $ grep Cancer -l plos/*
+        plos/journal.pbio.0020214.txt
+        plos/journal.pbio.0020439.txt
+        plos/pmed.0010028.txt
+        plos/pmed.0010069.txt
+        plos/pmed.0020017.txt
+        plos/pmed.0020055.txt
+        plos/pmed.0020073.txt
+        plos/pmed.0020075.txt
+        
+##### Example 2
+
+        $ grep Animals -l plos/*
+        plos/journal.pbio.0020101.txt
+        plos/journal.pbio.0020147.txt
+        plos/journal.pbio.0020439.txt
+        plos/pmed.0020045.txt
+        plos/pmed.0020120.txt
+        plos/pmed.0020249.txt
+
+### grep -c
+
+##### Example 1
+
+        $ grep Taliban -c 911report/*
+        911report/chapter-1.txt:0
+        911report/chapter-10.txt:26
+        911report/chapter-11.txt:5
+        911report/chapter-12.txt:13
+        911report/chapter-13.1.txt:0
+        911report/chapter-13.2.txt:0
+        911report/chapter-13.3.txt:32
+        911report/chapter-13.4.txt:28
+        911report/chapter-13.5.txt:6
+        911report/chapter-2.txt:16
+        911report/chapter-3.txt:66
+        911report/chapter-5.txt:11
+        911report/chapter-6.txt:66
+        911report/chapter-7.txt:12
+        911report/chapter-8.txt:0
+        911report/chapter-9.txt:0
+        911report/preface.txt:0
+       
+##### Example 2
+
+        $ grep Weapons -c 911report/*
+        911report/chapter-1.txt:0
+        911report/chapter-10.txt:0
+        911report/chapter-11.txt:2
+        911report/chapter-12.txt:1
+        911report/chapter-13.1.txt:0
+        911report/chapter-13.2.txt:3
+        911report/chapter-13.3.txt:3
+        911report/chapter-13.4.txt:1
+        911report/chapter-13.5.txt:1
+        911report/chapter-2.txt:0
+        911report/chapter-3.txt:0
+        911report/chapter-5.txt:0
+        911report/chapter-6.txt:0
+        911report/chapter-7.txt:0
+        911report/chapter-8.txt:0
+        911report/chapter-9.txt:0
+        911report/preface.txt:0
 
