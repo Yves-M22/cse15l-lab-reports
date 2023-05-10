@@ -34,8 +34,9 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
             
 ### grep -v
 
-##### Example 1
+This command line option does a reverse search, returning results that do NOT match that of the string inputted.
 
+##### Example 1
 
             $ grep  the -v 911report/preface.txt
             
@@ -75,6 +76,7 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
             Thomas H. Kean, chair
             Lee H. Hamilton, vice chair
 
+This shows us an interesting use of -v, by using a common string/word to see lines that might not include these common words.
 
 ##### Example 2
 
@@ -129,8 +131,11 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
         CESD Center for Epidemiologic Studies Depression
         poor?
 
+This builds on the last example, using a string that will most definitely be used throughout most of a text, which can produce spare results of the text.
 
 ### grep -l
+
+This command line option returns the name of files that do contain the tring being sought for. 
 
 ##### Example 1
         
@@ -144,6 +149,8 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
         plos/pmed.0020073.txt
         plos/pmed.0020075.txt
         
+This example shows the strings that have the keyword "cancer", which can be especially useful if looking for a text file with this keyword when searching something related to cancer in a directory related to medicine.
+
 ##### Example 2
 
         $ grep Animals -l plos/*
@@ -153,8 +160,12 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
         plos/pmed.0020045.txt
         plos/pmed.0020120.txt
         plos/pmed.0020249.txt
+        
+This shows us another similar use of -l, looking for specific files that may be relevant to the keyword selected, in this case files relating to medicine that could involve animals. 
 
 ### grep -c
+
+This command line option is similar to -l, but returns every file along with a count of how many times the inputted word appears in it. 
 
 ##### Example 1
 
@@ -176,6 +187,8 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
         911report/chapter-8.txt:0
         911report/chapter-9.txt:0
         911report/preface.txt:0
+        
+This example shows us which files are more likely to be related to the keyword, which could help increase accuracy of search results for the topic or keyword.
        
 ##### Example 2
 
@@ -197,4 +210,6 @@ This shows us looking for "Glow" ignoring the casing of letters. The lack of res
         911report/chapter-8.txt:0
         911report/chapter-9.txt:0
         911report/preface.txt:0
+
+This is another use of -c, but in this case it shows that this specific keyword is only mentioned a few times by some select files, which could have specific information relevant to the inputted word. 
 
