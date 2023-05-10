@@ -2,7 +2,11 @@
 
 ## The Grep Command
 
+List of the different command line options for grep was found [here](https://en.wikibooks.org/wiki/Grep)
+
 ### grep -i
+
+This command line option for grep eases the search requirement for finding a string among a file or files within a directory by allowing the string being sought to be upper or lower case. This means that any string in a text that matches the string being searched for regardless of whether there are upper or lower cases will be printed out. 
 
 ##### Example 1
 
@@ -19,10 +23,14 @@
           secondary outcome of total mortality, there were small
         of hypertension, several questions remain. There is still a
         
+This example shows us grep searching for the string "There", but it also includes "there" in the search. This can be useful if looking for a broader range of results. 
+        
 ##### Example 2
             
             $ grep Glow -i government/*/*
             government/Media/GreensburgDailyNews.txt:Perhaps the most glowing comments on Bailey's philanthropy came
+            
+This shows us looking for "Glow" ignoring the casing of letters. The lack of results could tell us how little relevance a word might have despite broader searches. 
             
 ### grep -v
 
