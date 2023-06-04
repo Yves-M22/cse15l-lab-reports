@@ -14,7 +14,7 @@ Keys Pressed: (up x1)(enter)
 
 Keys Pressed: (up x19)(enter)
 
--In this step, I pressed up multiple times to go through my history on the terminal to find the git clone command. I then pressed enter to run the command, which would clone the fork of the repository onto the remote computer.
+- In this step, I pressed up multiple times to go through my history on the terminal to find the git clone command. I then pressed enter to run the command, which would clone the fork of the repository onto the remote computer.
 
 ## Running test.sh to Check Failures ##
 
