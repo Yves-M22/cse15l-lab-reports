@@ -2,8 +2,9 @@
 
 ## Part 1 ##
 
+#### Student's Post ##### 
+![Image of Student post](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images5/Screenshot%202023-06-04%20213607.png?raw=true) 
 
+![Image of Student screenshot](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images5/Screenshot%202023-06-04%20194207.png?raw=true) 
 
-
-![Image of Logging into ieng6](https://github.com/Yves-M22/cse15l-lab-reports/blob/main/images4/Screenshot%202023-05-22%20182928.png?raw=true) 
 
