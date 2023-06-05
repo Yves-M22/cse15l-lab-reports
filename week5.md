@@ -9,7 +9,7 @@
 
 ### TA Response ###
 
-It seems like eveyrthing should be fine from the command-line, so it seems like you are using the correct command and file you inteded to use. I would use vim ```grade.sh``` to edit through the java file. Based on the error message, there seems to be an issue when it comes to compiling/testing the file.
+- It seems like eveyrthing should be fine from the command-line, so it seems like you are using the correct command and file you inteded to use. I would use vim ```grade.sh``` to edit through the java file. Based on the error message, there seems to be an issue when it comes to compiling/testing the file.
 
 ### Student Solution ### 
 
@@ -22,4 +22,6 @@ It seems like eveyrthing should be fine from the command-line, so it seems like 
 - To setup this debugging scenario, you'll need to log onto ieng6 and use git clone to copy [this repository](https://github.com/ucsd-cse15l-f22/list-examples-grader/blob/main/grade.sh). Once you've done that the grade.sh file should be edited so the java command is ran on ```TestListExamples.java``` instead of just TestListExamples. Running the command, ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3``` will trigger the bug since the bug is found within grade.sh rather than being in the command-line. To fix the bug, you'll need to go to make sure you're in the correct directory with the cloned repository and check using ```ls```. You then use ```vim``` to edit the ```ListExamples.java``` file to fix the bug by making sure the java command is looking for the correct file. Exiting vim and running the bash command should show the intended output.
 
 ## Part 2 ##
+
+- I thought that the whole idea of script files were super cool and useful, being able to condense a bunch of commands into a single script file. I can see scripts being extremely useful as I progress through CSE courses. I also thought vim was interesting, and I'm wondering how we'll use it in the future on future assignments or projects, since being able to edit files from the terminal seems like it'll have some uses. Out of everything in this half of the quarter, those two topics were the most interesting. 
 
